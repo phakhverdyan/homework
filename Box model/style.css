@@ -1,0 +1,42 @@
+.div1 {
+    border: 1px solid black;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-right: 150px;
+    margin-left: 80px;
+    background-color:  rgb(8, 54, 70);
+    color: white;
+  }
+
+ .marginrow  {
+    border: 1px solid black;
+    margin: 25px 150px 75px 80px;
+    background-color: rgb(167, 37, 80);
+    color: white;
+  }
+  .auto {
+      width: 300px;
+      margin: auto;
+  }
+  .inline{
+      display: inline;
+  }
+  .block{
+      display: block;
+  }
+  .div{
+      background-color: aqua;
+      border: 1px solid black;
+  }
+  .max-width{
+      max-width: none;
+  }
+  .min-height{
+      min-height: auto;
+  }
+  .shape{
+      max-width: 300px;
+  }
+  .minshape {
+      min-height: 600px;
+  }
