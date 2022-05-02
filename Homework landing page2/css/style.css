@@ -1,0 +1,144 @@
+*{
+    box-sizing: border-box;
+    font-family: "Radiance","Noto Sans",sans-serif;
+
+}
+body{
+    width: 100%;
+    margin: 0;
+    background-color: black;
+}
+.inline-block{
+    display: inline-block;
+}
+.header{
+    width: 100%;
+    height: 64px;
+    background-color: #18191a;
+    display: inline-block;
+    position: relative;
+}
+.imglogo{
+    width: 167px;
+    height: 33px;
+    margin-top: 14px;
+    margin-left: 50px;
+    
+}
+.divtext{
+    font-size: 23px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    color: #cecece;
+    /* margin: auto 0px; */
+    font-family: "Radiance",sans-serif;
+}
+.nav{
+    float: right;
+    margin-top: 19px;
+    margin-right: 70px;
+}
+.video{
+    position: absolute;
+    top: 0px;
+    left: 50%;
+    transform: translateX(-50%);
+    /* margin-top: 64px; */
+    width: 100%;
+}
+video{
+    width: 100%;
+}
+.divtitle{
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.visible{
+    z-index: 1;
+}
+.title_2{
+    margin: 0px auto;
+    margin-top: 6vw;
+    width: 50vw;
+    z-index: 1;
+}
+.prizetext{
+    color: #fff;
+    text-shadow: 0px 0px 16px #c79123;
+}
+.currentprize{
+    text-align: center;
+    z-index: 1;
+}
+.TextStyle{
+    font-size: 17px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: .2em;
+    line-height: 100%;
+}
+.TextColor{
+    color: #e4c269;
+}
+.TextLabel{
+    margin-top: 40vw;
+    text-align: center;
+    z-index: 1;
+}
+.TextStylePrize{
+    font-size: 96px;
+    font-weight: 900;
+    text-transform: uppercase;
+    letter-spacing: 6px;
+    line-height: 100%;
+}
+.TextColorGold{
+    color: #fff;
+    text-shadow: 0px 0px 16px #c79123;
+}
+.textcontainer{
+    text-align: center;
+    z-index: 1;
+}
+.textbody{
+    margin-top: 10px;
+    text-align: center;
+    max-width: 800px;
+    z-index: 1;
+}
+.textmargin{
+    margin-top: 70px;
+    z-index: 1;
+}
+.textcolorgray{
+    color: #ebeaeb;
+}
+.textbodyweight{
+    font-size: 16px;
+    font-weight: 500; 
+    line-height: 164%;
+}
+footer{
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.footer{
+    text-align: center;
+    width: 100%;
+    z-index: 5;
+
+}
+.FooterLogo{
+    margin: 100px 15px 20px 15px;
+    max-height: 45px;
+}
+.footerwidth{
+    width: 500px;
+    margin:100px auto ;
+    z-index: 1;
+}
