@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('/Classwork/css/reset.css');
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+}
+body,
+input,
+button{
+    font-family: 'Montserrat', sans-serif;
+}
+.easy-support__container{
+    width: 400px;
+    height: 430px;
+    border-radius: 15px 15px 0 0;
+    background-color: white;
+    margin: 50px auto 0 auto;
+    overflow: hidden;
+    box-shadow: 3px 8px 12px gray;
+    position: fixed;
+    right: 20px;
+    bottom:-380px;
+    transition: 2s;
+}
+.easy-support__header{
+ height: 50px;
+ background-color: yellow;
+ text-align: center;
+ line-height: 50px;
+ font-weight:bold;
+ overflow: hidden;
+}
+.easy-support__header:hover{
+    background-color: rgb(4, 255, 0);
+    transition: .4;
+}
+.easy-support__body{
+    height: 380px;
+    padding: 30px 20px 0;
+}
+label input {
+    width: 100%;
+    border: 2px solid gray;
+    padding: 8px 12px;
+    outline: none;
+    font-size: 17px;
+    border-radius: 5px;
+}
+.easy-support__body label:nth-child(3){
+    margin-bottom: 20px;
+}
+label input:focus{
+    border-color: yellow;
+}
+label div{
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+label div:first-child{
+    margin-bottom: 5px;
+    font-size: 18px;
+    font-weight: bold;
+}
+label{
+    display: block;
+    margin-bottom: 10px;
+}
+.easy-support__body button{
+    width: 100%;
+    padding: 8px;
+    font-size: 18px;
+    font-weight: bold;
+    border: 2px solid yellow;
+    border-radius:  5px;
+    background-color: yellow;
+    cursor: pointer;
+    transition: .8s;
+}
+ .easy-support__body button:hover{
+     background-color: black;
+     color: yellow;
+ }
+p{
+    font-size: 11px;
+    margin-top: 15px;
+    text-align: center;
+    color: gray;
+}
+input[type=checkbox]:checked + .easy-support__container{
+    bottom: 0;
+}
+#click{
+    position: absolute;
+    display: none;
+}
+.cursor{
+    cursor: pointer;
+}
